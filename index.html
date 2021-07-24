@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading</title>
+
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <main id="main">
+        <div class="container">
+            <div class=" overlay">
+                <h1 class="heads text-center"> <a href="index.html" class="head">Grade Sheet</a> </h1>
+
+                <div class="row">
+
+
+                    <div class="col col-6 col-md-6 col-sm-8 col-xs-10 left">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="#" name="frm" id="frm">
+                                    <div class="top">
+                                        <label for="sub1" class="label">Bangla</label><br>
+                                        <input type="number" class="names" name="sub1" id="sub1"
+                                            placeholder="enter your marks"><br>
+
+                                        <label for="sub2" class="label">English </label><br>
+                                        <input type="number" class="names" name="sub2" id="sub2"
+                                            placeholder="enter your marks"><br>
+
+                                        <label for="sub3" class="label">Mathematics </label> <br>
+                                        <input type="number" class="names" name="sub3" id="sub3"
+                                            placeholder="enter your marks"><br>
+
+                                        <label for="sub4" class="label">Science</label><br>
+                                        <input type="number" class="names" name="sub4" id="sub4"
+                                            placeholder="enter your marks"> <br>
+
+                                        <label for="sub5" class="label"> ICT</label> <br> <input type="number"
+                                            class="names" name="sub5" id="sub5" placeholder="enter your marks">
+                                    </div> <br>
+
+
+
+                                    <div class="bottom bottom2">
+                                        <button type="button" class="mod btn1"
+                                            onClick="results(+frm.sub1.value, +frm.sub2.value, +frm.sub3.value, +frm.sub4.value,+frm.sub5.value)">Check</button>
+                                        <button type="button" class="mod btn1 red" onClick="allReset()">Delete</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col col-4 col-md-6 col-sm-8 col-xs-10 right pos-rel">
+                        <div class="top">
+                            <h4 class="heads text-center">Check Your Result</h4>
+                            <hr class="hr">
+                            <div class="card card2">
+                                <div class="card-body">
+                                    <ul id="list">
+
+                                    </ul>
+
+                                    <ul id="list2">
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bottom bottom2">
+                            <button type="button" class="btn2" onClick="Resetall()">Clear</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="./js/grade.js"></script>
+</body>
+
+</html>
