@@ -18,9 +18,8 @@
 
 #main .container {
     width: 100%;
-    /* height: 100vh; */
     background-color: rgb(58, 58, 58);
-    background: url(../img/wall.jpg);
+    background: url(../img/bg-wall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -34,7 +33,6 @@
 #main .container .overlay {
     width: 100%;
     background: var(--overlay);
-    /* height: 100vh; */
     overflow: auto;
     /* margin: 0 auto; */
 }
@@ -64,7 +62,6 @@
     background: rgba(19, 19, 19, 0.021);
     padding: 10px;
     border-radius: 10px;
-    /* margin-bottom: 0px; */
     /* box-shadow: 3px 5px 10px #181818; */
 }
 
@@ -72,7 +69,6 @@
 #main .container .right {
     background: var(--transparent);
     padding: 10px;
-    /* margin-bottom: 0px; */
     border-radius: 15px;
     box-shadow: 3px 5px 15px var(--black);
     color: var(--white);
@@ -94,7 +90,6 @@
 
 #main .container .top {
     width: 100%;
-    /* height: 60%; */
     padding: 10px 10px;
     box-sizing: border-box;
 }
@@ -216,7 +211,6 @@
     padding: 6px 20px;
     margin-bottom: 10px;
     text-align: left;
-    /* height: 5vh; */
 }
 
 
@@ -257,5 +251,4 @@
     background-color: var(--color3);
     color: var(--white);
     border: 2px solid var(--color3);
-
 }
